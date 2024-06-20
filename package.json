@@ -1,0 +1,17 @@
+{
+  "name": "zoro-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "tsc && cucumber-js && rm -rf src/**/*.js "
+  },
+  "dependencies": {
+    "playwright": "^1.44.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^16.11.29",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
